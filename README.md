@@ -1,3 +1,10 @@
+# Documentation
+
+## Why this app exists:
+
+This app was built for the purpose of gaining experience creating apps using a test-driven development approach. It emulates a popular social media website and shares much of the core functionality.
+
+***
 # Setup
 
 ## Prerequisites:
