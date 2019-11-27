@@ -4,6 +4,8 @@
 
 This app was built for the purpose of gaining experience creating apps using a test-driven development approach. It emulates a popular social media website and shares much of the core functionality.
 
+You may visit the deployed version [here](https://grammable-frederic-hodges.herokuapp.com/).
+
 ***
 # Setup
 
