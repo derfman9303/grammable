@@ -6,7 +6,7 @@ This app was built for the purpose of gaining experience creating apps using a t
 
 You may visit the deployed version [here](https://grammable-frederic-hodges.herokuapp.com/).
 
-![Grammable app screenshot](assets/images/grammable.png "Grammable app screenshot")
+![Grammable app screenshot](app/assets/images/grammable.PNG "Grammable app screenshot")
 ***
 # Setup
 
