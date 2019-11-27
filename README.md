@@ -1,24 +1,56 @@
-# README
+# Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites:
+ 
+ The following tools should be installed on the system before following setup steps.
+ 
+  - Git
+  - Ruby 2.5.3
+  - Rails 5.2.3
+  
+1. **Clone repo:**
+       
+        git@github.com:derfman9303/grammable.git
+        
+2. **On the command line, navigate to the grammable repository**
+        
+        cd grammable
 
-Things you may want to cover:
+3. **Create the database**
+        
+        rails db:create db:migrate
+        
+4. **Install gems**
+        
+        bundle install
 
-* Ruby version
+***
+# Usage
 
-* System dependencies
+## Start your server:
 
-* Configuration
+        rails server -b 0.0.0.0 -p 3000
 
-* Database creation
+You may now visit your app at http://localhost:3030
 
-* Database initialization
+## Running test suite:
 
-* How to run the test suite
+This app uses the Rspec test suite, if you need to use it you may do so by editing the spec files in /grammable/spec and running the following command:
 
-* Services (job queues, cache servers, search engines, etc.)
+        bundle exec rspec
 
-* Deployment instructions
+# Deployment
 
-* ...
+## Pushing to Heroku
+
+If you would like, you may push your app up to Heroku by running the following commands:
+
+        git init
+        
+        git add .
+        
+        git commit -am "initial commit"
+        
+        heroku create
+        
+        git push heroku master
