@@ -39,6 +39,7 @@ This app uses the Rspec test suite, if you need to use it you may do so by editi
 
         bundle exec rspec
 
+***
 # Deployment
 
 ## Pushing to Heroku
